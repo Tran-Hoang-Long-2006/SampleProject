@@ -12,7 +12,7 @@
 ---
 
 ## 2. Thông tin bài tập
-- **Tên bài toán**: Bài toán balô (Knapsack).
+- **Tên bài toán**: Bài 6: Bài toán balô (Knapsack).
 - **Đề bài**: Có N đồ vật, khối lượng `w[i]`, giá trị `v[i]`.
 - **Gợi ý**:
   - Đệ quy xét từng đồ vật.
