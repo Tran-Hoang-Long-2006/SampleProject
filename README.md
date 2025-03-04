@@ -158,3 +158,19 @@ Chuỗi lựa chọn: 101011
 ## 6. Link source code
 [Thư mục src](./src)
 
+---
+## 7. Ưu điểm và Hạn chế
+
+### Ưu điểm
+- **Tiết kiệm bộ nhớ**: Sử dụng **bảng nhớ (memoization)** giúp tránh tính toán lặp lại, giảm độ phức tạp thời gian.
+- **Hiệu suất tốt**: Thuật toán có độ phức tạp **O(NW)**, phù hợp với bài toán có `N` và `W` không quá lớn.
+- **Kết quả chính xác, dễ hiểu**: Lưu trạng thái của các lựa chọn, giúp truy xuất **chuỗi nhị phân lựa chọn** dễ dàng.
+
+### Hạn chế
+- **Tốn bộ nhớ khi sử dụng bảng 2D**: Khi `N` và `W` quá lớn (ví dụ `N = 1000`, `W = 10^5`), bảng `dp[N][W]` có thể gây tràn bộ nhớ.
+- **Không phù hợp với `W` cực lớn**: Khi `W` quá lớn (hàng triệu), cần dùng phương pháp khác như **quy hoạch động xấp xỉ**.
+- **Mất khả năng truy vết chuỗi lựa chọn khi tối ưu bộ nhớ**: Nếu tối ưu dùng **mảng một chiều `dp[W]`**, chương trình không thể truy vết danh sách đồ vật đã chọn.
+
+### Giải pháp khắc phục
+- **Cần truy vết chuỗi lựa chọn** → Dùng `dp[N][W]` như trong code ban đầu.
+- **Cần tiết kiệm bộ nhớ** → Dùng `dp[W]`, nhưng không truy vết được danh sách đồ vật.
