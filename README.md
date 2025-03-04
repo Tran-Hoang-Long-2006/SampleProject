@@ -4,7 +4,7 @@
 | STT | Họ và tên | MSSV | Vai trò |
 |---|---|---|---|
 | 1 | Nguyễn Văn A | 123456 | Nhóm trưởng |
-| 2 | Trần Thị B | 123457 | Thành viên |
+| 2 | Trần Hoàng Long | 123457 | Thành viên |
 | 3 | Lê Văn C | 123458 | Thành viên |
 
 ---
