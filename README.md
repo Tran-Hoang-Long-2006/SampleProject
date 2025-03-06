@@ -58,7 +58,7 @@ Bài toán yêu cầu lựa chọn một tập hợp đồ vật từ N đồ v�
     \]
 - Kết quả cuối cùng là giá trị lớn nhất giữa hai phương án trên:
   \[
-  dp[i][W] = \max(dp[i - 1][W], dp[i - 1][W - w[i]] + v[i])
+  dp[i][W] = max(dp[i - 1][W], dp[i - 1][W - w[i]] + v[i])
   \]
 
 #### 3. **Triển khai thuật toán**
