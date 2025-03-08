@@ -151,7 +151,7 @@ Chuỗi lựa chọn: 101011
 ---
 
 ## 5. Link video báo cáo
-[Video báo cáo nhóm 17](https://drive.google.com/drive/u/1/folders/1svTjLsHlOPgEAee7CZU6kypMHqhWe4lx)
+[Video báo cáo nhóm 17](https://drive.google.com/file/d/1pzIBjwQyO0dB1aaasqYZ9bobH50v7Ud_/view?usp=sharing)
 
 
 ---
