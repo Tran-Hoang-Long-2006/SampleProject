@@ -151,7 +151,8 @@ Chuỗi lựa chọn: 101011
 ---
 
 ## 5. Link video báo cáo
-[Video báo cáo nhóm X](#)
+[Video báo cáo nhóm 17](![image](https://github.com/user-attachments/assets/dc010226-d4e3-4e5f-bedf-a12243ba13eb)
+)
 
 ---
 
